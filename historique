@@ -1,0 +1,4 @@
+model pour UI : Container (2 instances Inc/Excl) ->> Group ->> Item (valueSt, value et valueEnd, dateStart et dateEnd)
+type de OP non discriminant -> utiliser value(XX) non nulles
+todo :
+envoi valueset et query avec QueryCriteria. Si double value creer un QueryCriteria (group ALL) avec 2 QueryCriteria (item pour start and end)

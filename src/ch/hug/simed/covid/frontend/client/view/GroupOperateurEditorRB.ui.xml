@@ -1,0 +1,17 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+			xmlns:m="urn:import:gwt.material.design.client.ui"
+
+	
+	>
+	<ui:style type="ch.hug.simed.covid.frontend.client.view.GroupOperateurEditorRB.InlineStyle">
+	.rbInline {
+		display: inline;  	
+	}
+	</ui:style>
+	<g:HTMLPanel ui:field="panel">
+		<m:MaterialRadioButton ui:field="rbOu" text="Ou"  name="operateur"/>
+		<m:MaterialRadioButton ui:field="rbEt" text="Et"  name="operateur" value="true"/>
+	</g:HTMLPanel>
+</ui:UiBinder> 

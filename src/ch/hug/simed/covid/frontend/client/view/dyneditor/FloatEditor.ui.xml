@@ -1,0 +1,31 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+			xmlns:m="urn:import:gwt.material.design.client.ui"
+		xmlns:in="urn:import:gwt.material.design.incubator.client"
+	
+	>
+	<ui:style>
+
+	</ui:style>
+	<m:MaterialContainer>
+		<m:MaterialRow>
+			<m:MaterialColumn >
+    		<in:toggle.GroupToggleButton ui:field="opsSelector" />
+    	 </m:MaterialColumn>
+		</m:MaterialRow>
+		<m:MaterialRow>
+	
+    	<m:MaterialRow>
+			<m:MaterialColumn grid="s12">
+    			<m:MaterialFloatBox ui:field="floatBox" label="Valeur" />
+    		</m:MaterialColumn>
+    	</m:MaterialRow>
+    	<m:MaterialRow>
+			<m:MaterialColumn grid="s12">
+    			<m:MaterialFloatBox ui:field="floatEndBox" label="Valeur à" />
+    		</m:MaterialColumn>
+    	</m:MaterialRow>
+    	</m:MaterialRow>
+    </m:MaterialContainer>
+</ui:UiBinder> 

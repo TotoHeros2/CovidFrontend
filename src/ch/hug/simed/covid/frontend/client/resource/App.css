@@ -1,0 +1,18 @@
+/** SEARCH **/
+#app-container .input-field.inline-search {
+    overflow: unset;
+}
+
+#app-container .inline-search .search-result {
+    display: block;
+    overflow-y: scroll;
+}
+/** Search **/
+#app-container .inline-search .search-result a {
+    height: 40px;
+    line-height: 40px;
+}
+
+#app-container .input-field.inline-search {
+    right: 15%;
+}

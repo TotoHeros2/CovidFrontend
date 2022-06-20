@@ -1,0 +1,22 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+		xmlns:m="urn:import:gwt.material.design.client.ui"
+	xmlns:p="urn:import:ch.hug.simed.covid.frontend.client.view"
+	>
+	<ui:style>
+
+	</ui:style>
+	<g:HTMLPanel>
+	<m:MaterialDialog ui:field="dialog" type="DEFAULT" dismissible="false" inDuration="500" outDuration="500">
+        <m:MaterialDialogContent>
+            <m:MaterialTitle title="Rechercher un critère"  />
+        </m:MaterialDialogContent>
+        <m:MaterialDialogFooter>
+            <m:MaterialButton text="Annuler" ui:field="btnCancelDialog"/>
+        
+            <m:MaterialButton text="Ajouter" ui:field="btnCloseDialog"/>
+        </m:MaterialDialogFooter>
+    </m:MaterialDialog>
+	</g:HTMLPanel>
+</ui:UiBinder> 
