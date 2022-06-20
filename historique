@@ -4,4 +4,4 @@ todo :
 envoi valueset et query avec QueryCriteria. Si double value creer un QueryCriteria (group ALL) avec 2 QueryCriteria (item pour start and end)
 
 
-bidon 2
+bidon 3
